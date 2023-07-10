@@ -1,0 +1,106 @@
+*{
+  margin: 0%;
+}
+.App {
+  text-align: center;
+  /* background-color: #439aa8fb; */
+  height: 100vh;
+}
+.task h1{
+  color: rgb(33, 30, 30);
+  text-decoration: underline;
+}
+.task{
+  display: flex;
+  justify-content: center;
+}
+.task .data{
+  width: 65%;
+  padding: 18px;
+  margin: 8px;
+  /* box-shadow: 0 0 50px 0 #00000045; */
+  /* background-color: rgba(100, 148, 237, 0.29); */
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+.task .data lable{
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+}
+.task .data input{
+  height: 23px;
+  width: 200px;
+  /* border-radius: 6px; */
+  margin: 10px;
+  border: 0;
+  border-bottom:1px solid gray;
+  
+}
+.task .data input:focus{
+  outline: none;
+
+}
+.task .data button{
+  padding: 7px 22px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(22, 95, 206);
+  color: white;
+  margin: 15px 0px 0px 0px;
+}
+/* tablejsx */
+.details input{
+  height: 23px;
+  width: 200px;
+  border-radius: 6px;
+  margin: 5px
+}
+.data .dropdown{
+  
+}
+.details .tab .designtab{
+    border-collapse: collapse;
+    /* margin: 25px 0; */
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    border: 25px black;
+    margin: auto;
+}
+.designtab thead tr{
+  background-color: #009879;
+    color: #ffffff;
+}
+.designtab th,.designtab td {
+    padding: 12px 15px;
+}
+.designtab tbody tr{
+  border-bottom: 1px solid #dddddd;
+}
+.designtab tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+.content{
+  display: flex;
+  justify-content: space-around;
+}
+.content button{
+  margin: 10px;
+  padding: 7px 14px;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  border: .5px solid;
+}
+.content button:hover{
+  background-color: gray;
+  color: white;
+}
+.designtab th{
+  background-color: #252525;
+}
+.tab .designtab td button{
+  margin: 5px;
+}
